@@ -12,12 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - changelod.md
 - index.html
 - folder images with files
+- main.css
 
 ### Fixed
 
 
 ### Changed
 - index.html, created the initial structure of the website
+- main.css, created the initial code
+- index.html, created the entire basic structure 
 
 ### Removed
 - 
