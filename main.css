@@ -2,11 +2,56 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #E7E7E7;
+    padding-top: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header img{
+    height: 60px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 35px;
 }
 
 .container{
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+}
+
+form input{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #000;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+}
+
+form button{
+    background-color: rgba(128, 0, 128, 0.911);
+    color: #fff;
+    padding: 9px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgba(128, 0, 128, 0.678);
 }
