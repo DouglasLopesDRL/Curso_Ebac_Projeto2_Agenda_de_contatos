@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - index.html, created the initial structure of the website
 - main.css, created the initial code
 - index.html, created the entire basic structure 
+- index.html, implemented a Google source link and changed the field parameters
+- main.css, styled the button, fields, header, fonts and colors
 
 ### Removed
 - 
