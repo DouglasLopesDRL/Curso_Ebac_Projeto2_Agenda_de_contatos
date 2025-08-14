@@ -15,12 +15,12 @@
             <img src="./images/logo_header.png" alt="imagem representativa de contatos">
             <h1>Agenda de Contatos</h1>
         </header>
-        <form>
-            <input type="text" name="nome" id="nome-contato" placeholder="Insira seu nome completo..." required>
-            <input type="tel" name="telefone" id="telefone-contato" placeholder="Insire seu numero com ddd...ex: 21988988999" max="11" required>
+        <form id="formulario">
+            <input type="text" name="nome" id="nome-contato" class="focado" placeholder="Insira seu nome completo..." required>
+            <input type="tel" name="telefone" id="telefone-contato" class="focado" placeholder="Insire seu numero com ddd...ex: 21988988999" maxlength="11" required>
             <button type="submit">Cadastrar</button>
         </form>
-        <table>
+        <table cellspacing="0">
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -30,10 +30,11 @@
             <tbody>
                 <tr>
                     <td>Nome 1</td>
-                    <td>988388388</td>
+                    <td>22988388388</td>
                 </tr>
             </tbody>
         </table>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -42,6 +42,7 @@ form input{
     margin-bottom: 10px;
     padding: 6px;
     width: 100%;
+    border-color: purple;
 }
 
 form button{
@@ -50,8 +51,27 @@ form button{
     padding: 9px;
     width: 100%;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 form button:hover{
     background-color: rgba(128, 0, 128, 0.678);
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid purple;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table td{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(128,0,128,0.3);
 }
